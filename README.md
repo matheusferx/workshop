@@ -25,12 +25,12 @@ Git
 # Clonando o Repositório
 
  Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/matheusferx/workshop.git
 
 Entre no diretório do projeto
-cd nome-do-repositorio
+cd workshop
 
- Instalando as Dependências
+# Instalando as Dependências
 
 npm install
 
