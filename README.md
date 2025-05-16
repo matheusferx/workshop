@@ -1,4 +1,4 @@
-#Node.js CRUD com SQLite3 e Knex.js
+# Node.js CRUD com SQLite3 e Knex.js
 
 Este projeto foi desenvolvido como parte de um workshop de Node.js promovido por uma empresa de extensão da PUC Minas. O objetivo foi entender os conceitos fundamentais do desenvolvimento backend, incluindo protocolos HTTP, CRUD simples, middlewares e a integração com bancos de dados usando SQLite e Knex.js.
 
@@ -57,14 +57,6 @@ GET /products/****:id - Retorna um produto pelo ID
 PUT /products/****:id - Atualiza um produto pelo ID
 
 DELETE /products/****:id - Deleta um produto pelo ID
-
-# Estrutura do Projeto
-
-├── index.js
-├── knexfile.js
-├── migrations/
-│   └── 20230516_create_products_table.js
-└── package.json
 
 # Contribuindo
 
