@@ -1,0 +1,27 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "marca": "Coca-Cola",
+  "valor": 100,
+  "descricao": "Calça jeans"
+}
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+PUT http://localhost:3000/products/2
+Content-Type: application/json
+
+{
+  "marca": "Coca-Cola",
+  "valor": 150,
+  "descricao": "Fardo de 6 latas"
+}
+
+###
+
+DELETE http://localhost:3000/products/3
